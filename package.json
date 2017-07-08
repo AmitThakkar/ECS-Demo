@@ -4,7 +4,7 @@
   "description": "This is demo to explain ecs",
   "main": "ecs-demo.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ecs-demo.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/AmitThakkar/ECS-Demo/issues"
   },
-  "homepage": "https://github.com/AmitThakkar/ECS-Demo#readme"
+  "homepage": "https://github.com/AmitThakkar/ECS-Demo#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
